@@ -1,4 +1,5 @@
 # Copyright 2025 AlQuraishi Laboratory
+# Copyright 2025 Geoffrey Taghon
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -709,10 +710,15 @@ class ColabFoldQueryRunner:
         template_alignments_path = self.output_directory / "template"
         template_alignments_path.mkdir(parents=True, exist_ok=True)
 
-        template_alignments = pd.read_csv(
-            self.output_directory / "raw/main/pdb70.m8", sep="\t", header=None
-        )
-        m_with_templates = set(template_alignments[0])
+        template_alignments_file = self.output_directory / "raw/main/pdb70.m8"
+        if template_alignments_file.exists() and template_alignments_file.stat().st_size > 0:
+            template_alignments = pd.read_csv(
+                template_alignments_file, sep="\t", header=None
+            )
+            m_with_templates = set(template_alignments[0])
+        else:
+            # No template alignments found
+            m_with_templates = set()
 
         for rep_id, aln in zip(
             self.colabfold_mapper.rep_ids, a3m_lines_main, strict=False

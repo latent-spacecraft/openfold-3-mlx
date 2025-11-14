@@ -1,4 +1,17 @@
 # Copyright 2025 AlQuraishi Laboratory
+# Copyright 2025 Geoffrey Taghon
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -97,6 +110,10 @@ model_config = mlc.ConfigDict(
                     # Use Staats & Rabe's low-memory attention algorithm. Mutually
                     # exclusive with use_deepspeed_evo_attention.
                     "use_lma": False,
+                    # 🍎 Apple Silicon MLX optimizations
+                    "use_mlx_attention": False,
+                    "use_mlx_triangle_kernels": False,
+                    "use_mlx_activation_functions": False,
                     "msa_module": {
                         "swiglu_chunk_token_cutoff": None,
                         "swiglu_seq_chunk_size": None,
@@ -107,6 +124,10 @@ model_config = mlc.ConfigDict(
                     "use_deepspeed_evo_attention": True,
                     "use_cueq_triangle_kernels": False,
                     "use_lma": False,
+                    # 🍎 Apple Silicon MLX optimizations
+                    "use_mlx_attention": False,
+                    "use_mlx_triangle_kernels": False,
+                    "use_mlx_activation_functions": False,
                     "msa_module": {
                         "swiglu_chunk_token_cutoff": None,
                         "swiglu_seq_chunk_size": None,

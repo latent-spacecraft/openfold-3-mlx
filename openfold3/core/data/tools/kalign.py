@@ -1,4 +1,5 @@
 # Copyright 2025 AlQuraishi Laboratory
+# Copyright 2025 Geoffrey Taghon
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -48,13 +49,42 @@ def run_kalign(
 
     try:
         result = subprocess.run(
-            ["kalign"], input=a3m_string, capture_output=True, text=True, check=True
+            ["kalign", "--format", "fasta", "--type", "protein"],
+            input=a3m_string, capture_output=True, text=True, check=True
         )
 
         # The resulting MSA is stored in the variable
         alignment_result = result.stdout
 
+        # Filter out kalign header/log information to extract only FASTA sequences
+        lines = alignment_result.split('\n')
+        fasta_lines = []
+        found_fasta_start = False
+
+        for line in lines:
+            # Skip header/copyright/log lines
+            if (line.startswith('Kalign') or
+                line.startswith('Copyright') or
+                line.startswith('This program') or
+                line.startswith('This is free software') or
+                line.startswith('Please cite:') or
+                line.startswith('  Lassmann') or
+                line.startswith('  Bioinformatics') or
+                line.startswith('  https://') or
+                line.startswith('[') or  # Log lines like "[2025-11-13"
+                line.strip() == '' and not found_fasta_start):
+                continue
+            elif line.startswith('>'):
+                # Found first FASTA header
+                found_fasta_start = True
+                fasta_lines.append(line)
+            elif found_fasta_start:
+                fasta_lines.append(line)
+
+        alignment_result = '\n'.join(fasta_lines)
+
     except subprocess.CalledProcessError as e:
         print(f"Kalign command failed:\n{e.stderr}")
+        raise RuntimeError(f"Kalign alignment failed: {e.stderr}") from e
 
     return alignment_result

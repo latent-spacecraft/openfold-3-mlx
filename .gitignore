@@ -5,8 +5,14 @@ __pycache__/
 build
 dist
 .DS_Store
+.trash/
+.venv/
 
 # files from script downloads
 openfold3/resources/
 tests/test_data/sample_feats.pickle
 cutlass/
+
+# Outputs
+base_query_*.json
+prediction_*/

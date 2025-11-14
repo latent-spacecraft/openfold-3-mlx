@@ -1,4 +1,5 @@
 # Copyright 2025 AlQuraishi Laboratory
+# Copyright 2025 Geoffrey Taghon
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -74,6 +75,43 @@ from openfold3.core.data.tools.colabfold_msa_server import (
 from openfold3.core.utils.tensor_utils import dict_multimap
 
 _NUMPY_AVAILABLE = RequirementCache("numpy")
+
+
+def worker_init_function_with_data_seed(
+    worker_id: int, data_seed: int, rank: int | None = None
+) -> None:
+    """Modified default Lightning worker_init_fn with manual data seed.
+
+    This worker_init_fn enables decoupling stochastic processes in the data
+    pipeline from those in the model. Taken from Pytorch Lightning 2.4.1 source
+    code: https://github.com/Lightning-AI/pytorch-lightning/blob/f3f10d460338ca8b2901d5cd43456992131767ec/src/lightning/fabric/utilities/seed.py#L85
+
+    Args:
+        worker_id (int):
+            Worker id.
+        data_seed (int):
+            Data seed for reproducible random number generation.
+        rank (Optional[int], optional):
+            Worker process rank. Defaults to None.
+    """
+    # implementation notes: https://github.com/pytorch/pytorch/issues/5059#issuecomment-817392562
+    global_rank = rank if rank is not None else rank_zero_only.rank
+    process_seed = data_seed
+    # back out the base seed so we can use all the bits
+    base_seed = process_seed - worker_id
+    seed_sequence = _generate_seed_sequence(
+        base_seed, worker_id, global_rank, count=4
+    )
+    torch.manual_seed(seed_sequence[0])  # torch takes a 64-bit seed
+    random.seed(
+        (seed_sequence[1] << 32) | seed_sequence[2]
+    )  # combine two 64-bit seeds
+    if _NUMPY_AVAILABLE:
+        import numpy as np
+
+        np.random.seed(
+            seed_sequence[3] & 0xFFFFFFFF
+        )  # numpy takes 32-bit seed only
 
 
 class DatasetMode(enum.Enum):
@@ -187,42 +225,12 @@ class DataModule(pl.LightningDataModule):
                 self.next_dataset_indices[cfg.name] = 0
 
     def setup(self, stage=None):
-        # Custom worker init function with manual data seed
-        def worker_init_function_with_data_seed(
-            worker_id: int, rank: int | None = None
-        ) -> None:
-            """Modified default Lightning worker_init_fn with manual data seed.
-
-            This worker_init_fn enables decoupling stochastic processes in the data
-            pipeline from those in the model. Taken from Pytorch Lightning 2.4.1 source
-            code: https://github.com/Lightning-AI/pytorch-lightning/blob/f3f10d460338ca8b2901d5cd43456992131767ec/src/lightning/fabric/utilities/seed.py#L85
-
-            Args:
-                worker_id (int):
-                    Worker id.
-                rank (Optional[int], optional):
-                    Worker process rank. Defaults to None.
-            """
-            # implementation notes: https://github.com/pytorch/pytorch/issues/5059#issuecomment-817392562
-            global_rank = rank if rank is not None else rank_zero_only.rank
-            process_seed = self.data_seed
-            # back out the base seed so we can use all the bits
-            base_seed = process_seed - worker_id
-            seed_sequence = _generate_seed_sequence(
-                base_seed, worker_id, global_rank, count=4
-            )
-            torch.manual_seed(seed_sequence[0])  # torch takes a 64-bit seed
-            random.seed(
-                (seed_sequence[1] << 32) | seed_sequence[2]
-            )  # combine two 64-bit seeds
-            if _NUMPY_AVAILABLE:
-                import numpy as np
-
-                np.random.seed(
-                    seed_sequence[3] & 0xFFFFFFFF
-                )  # numpy takes 32-bit seed only
-
-        self.worker_init_function_with_data_seed = worker_init_function_with_data_seed
+        # Use module-level worker init function with data_seed bound
+        from functools import partial
+        self.worker_init_function_with_data_seed = partial(
+            worker_init_function_with_data_seed,
+            data_seed=self.data_seed
+        )
         self.generator = torch.Generator(device="cpu").manual_seed(self.data_seed)
 
         self.datasets_by_mode = {k: [] for k in DatasetMode}
@@ -442,6 +450,7 @@ class DataModule(pl.LightningDataModule):
             collate_fn=openfold_batch_collator,
             generator=self.generator,
             worker_init_fn=self.worker_init_function_with_data_seed,
+            persistent_workers=num_workers > 0,  # Keep workers alive between batches
         )
 
     def train_dataloader(self) -> DataLoader:
