@@ -1,4 +1,4 @@
-![Alt text](./assets/openfold3-mlx.svg)
+![Openfold-3-MLX: Protein folding arrives on Apple Silicon.](./assets/openfold3-mlx.png)
 OpenFold3-MLX is a specialized fork of OpenFold3-preview optimized for Apple Silicon hardware using the MLX framework. Building on the foundation of DeepMind's [AlphaFold3](https://github.com/deepmind/alphafold3) reproduction by the AlQuraishi Lab at Columbia University, this implementation provides significant performance improvements on M-series chips through native Apple Silicon acceleration. This fork maintains full compatibility with the original OpenFold3-preview while delivering enhanced inference performance on macOS systems.
 
 ## MLX Acceleration for Apple Silicon
