@@ -54,7 +54,7 @@ Get started with OpenFold3-MLX on your Apple Silicon Mac in a few easy steps:
 
 ### Prerequisites
 - macOS system with Apple Silicon (M1, M2, M3, or M4 chip, tested: M4 10-core)
-- Python 3.10 or later (tested: 3.13)
+- **Python 3.10** or later (tested: 3.13)
 - Sufficient memory (16GB+ recommended for larger proteins, tested: 32GB)
 
 ### Installation

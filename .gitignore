@@ -7,6 +7,8 @@ dist
 .DS_Store
 .trash/
 .venv/
+venv/
+.claude/
 
 # files from script downloads
 openfold3/resources/
