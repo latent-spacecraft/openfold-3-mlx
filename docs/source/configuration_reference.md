@@ -118,7 +118,7 @@ Configures data loading and processing.
 **All Options**:
 - `batch_size` *(int)*: Batch size (default: `1`)
 - `data_seed` *(int | None)*: Random seed for data processing (default: `42`)
-- `num_workers` *(int)*: Number of data loading workers (default: `10`)
+- `num_workers` *(int)*: Number of data loading workers (default: `8`)
 - `num_workers_validation` *(int)*: Number of workers for validation (default: `4`)
 - `epoch_len` *(int)*: Length of training epoch (default: `4`)
 
