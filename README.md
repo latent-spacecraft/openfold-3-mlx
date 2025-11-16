@@ -59,22 +59,21 @@ Get started with OpenFold3-MLX on your Apple Silicon Mac in a few easy steps:
 
 ### Installation
 
+Simple pip-only installation - no conda, homebrew, or command line experience required:
+
 1. Clone the repository and install dependencies:
 ```bash
 git clone [repository-url]
 cd openfold-3-mlx
 pip install -e .
-mamba install kalign2 -c bioconda  # Required for template processing
-```
-OR with Homebrew:
-```bash
-brew install kalign
 ```
 
 2. Setup model parameters and download weights:
 ```bash
 setup_openfold
 ```
+
+**Template Processing**: Includes a bundled kalign binary optimized for all Apple Silicon variants (M1/M2/M3/M4). No additional installation or configuration required.
 
 ### Running Predictions
 

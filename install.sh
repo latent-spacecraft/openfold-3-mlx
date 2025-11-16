@@ -2,13 +2,14 @@
 
 # Installer for Openfold3-MLX
 python3 -m venv .venv
-source ./venv/bin/activate
 
 # Install Openfold3-MLX
-pip install -e .
+source ./.venv/bin/activate && pip install -e .
 
 # Install dependencies
-pip install git+https://github.com/TimoLassmann/kalign.git
+echo ""
+echo "Installing kalign for inference..."
+source ./.venv/bin/activate && pip install git+https://github.com/TimoLassmann/kalign.git
 
 echo ""
 echo "================================================================="

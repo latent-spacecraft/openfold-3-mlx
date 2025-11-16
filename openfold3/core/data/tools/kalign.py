@@ -13,9 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
 import shutil
 import subprocess
 from functools import lru_cache
+from pathlib import Path
 
 
 @lru_cache(maxsize=512)
@@ -40,16 +42,22 @@ def run_kalign(
         str:
             The aligned sequences in A3M format as a string.
     """
-    kalign_available = shutil.which("kalign") is not None
+    # Look for bundled kalign binary first, then fallback to system PATH
+    bundled_kalign = Path(__file__).parent.parent.parent.parent / "bin" / "kalign"
 
-    if not kalign_available:
+    if bundled_kalign.exists() and bundled_kalign.is_file():
+        kalign_cmd = str(bundled_kalign)
+    elif shutil.which("kalign") is not None:
+        kalign_cmd = "kalign"
+    else:
         raise RuntimeError(
-            "Kalign is not available. Please install it and ensure it is in your PATH."
+            "Kalign is not available. Please install it and ensure it is in your PATH, "
+            "or ensure the bundled kalign binary is present."
         )
 
     try:
         result = subprocess.run(
-            ["kalign", "--format", "fasta", "--type", "protein"],
+            [kalign_cmd, "--format", "fasta", "--type", "protein"],
             input=a3m_string, capture_output=True, text=True, check=True
         )
 

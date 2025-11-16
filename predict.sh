@@ -11,6 +11,8 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+source .venv/bin/activate
+
 SEQUENCE="$1"
 TIMESTAMP=$(date +%s)
 OUTPUT_DIR="prediction_${TIMESTAMP}"
@@ -45,7 +47,7 @@ echo "   ✅ Created: ${BASE_QUERY_JSON}"
 
 # Step 2: OpenFold prediction with templates
 echo ""
-echo "🎯 Step 4: Final OpenFold prediction..."
+echo "🎯 Step 2: OpenFold-MLX prediction..."
 echo "   🧬 Mode: ${PREDICTION_MODE}"
 echo "   📋 Query: ${BASE_QUERY_JSON}"
 echo "   📁 Output: ${OUTPUT_DIR}"
@@ -61,16 +63,12 @@ python openfold3/run_openfold.py predict \
 PREDICTION_EXIT_CODE=$?
 PREDICTION_END_TIME=$(date +%s)
 PREDICTION_DURATION=$((PREDICTION_END_TIME - PREDICTION_START_TIME))
-TOTAL_DURATION=$((PREDICTION_END_TIME - MSA_START_TIME))
 
 echo ""
 echo "🎉 PREDICTION COMPLETED!"
 echo "================================================================="
 echo "⏱️  Timing:"
-echo "   MSA generation: ${MSA_DURATION}s"
-echo "   Template generation: ${TEMPLATE_DURATION}s"
-echo "   Final prediction: ${PREDICTION_DURATION}s"
-echo "   Total runtime: ${TOTAL_DURATION}s"
+echo "   Inference wall-clock: ${PREDICTION_DURATION}s"
 echo ""
 
 # Analyze results
