@@ -54,7 +54,7 @@ echo "   📁 Output: ${OUTPUT_DIR}"
 echo ""
 
 PREDICTION_START_TIME=$(date +%s)
-python openfold3/run_openfold.py predict \
+python3 openfold3/run_openfold.py predict \
     --query_json "${BASE_QUERY_JSON}" \
     --runner_yaml examples/example_runner_yamls/mlx_runner.yml \
     --output_dir "${OUTPUT_DIR}" \

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Openfold3-MLX
-python -m venv .venv
+python3 -m venv .venv
 source ./.venv/bin/activate && pip install -e .
 
 # Install dependencies
