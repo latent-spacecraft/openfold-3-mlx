@@ -101,12 +101,6 @@ The MLX-optimized runner configuration automatically enables Apple Silicon accel
 
 OpenFold3-MLX maintains the accuracy of OpenFold3-preview while providing significant performance improvements on Apple Silicon hardware.
 
-### Accuracy Performance
-OpenFold3-MLX preserves the competitive performance of the original OpenFold3-preview across all supported modalities:
-- Protein and RNA monomers from [CASP16](https://www.biorxiv.org/content/10.1101/2025.05.06.652459v2) and [Ludaic et al](https://www.biorxiv.org/content/10.1101/2025.04.30.651414v2)
-- Protein-protein complexes from [CASP16](https://www.biorxiv.org/content/10.1101/2025.05.29.656875v1) and [FoldBench](https://www.biorxiv.org/content/10.1101/2025.05.22.655600v1)
-- Protein-ligand complexes from the [Runs and Poses](https://www.biorxiv.org/content/10.1101/2025.02.03.636309v3)
-
 ### Apple Silicon Performance Benchmarks
 **Hardware-Specific Results:**
 
