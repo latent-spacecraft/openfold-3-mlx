@@ -160,7 +160,7 @@ If you use OpenFold3-MLX in your research, please cite both this implementation 
   title = {OpenFold3-MLX: Apple Silicon Optimized Protein Structure Prediction},
   author = {{Geoffrey Taghon}},
   year = {2025},
-  version = {1.0.0},
+  version = {0.1.0},
   url = {https://github.com/latent-spacecraft/openfold-3-mlx},
   abstract = {OpenFold3-MLX is a specialized fork of OpenFold3-preview optimized for Apple Silicon hardware using the MLX framework, providing significant performance improvements on M-series chips through native Apple Silicon acceleration.}
 }
