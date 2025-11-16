@@ -2,7 +2,6 @@
 
 # Simple One Peptide Prediction Script
 # Usage: ./predict.sh "SEQUENCE"
-# Features: Dual validation, FOLDCOMP extraction, 90+ plDDT targeting
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <protein_sequence>"
@@ -20,6 +19,7 @@ QUERY_NAME="query_${TIMESTAMP}"
 BASE_QUERY_JSON="base_query_${TIMESTAMP}.json"
 
 echo "================================================================="
+echo "Openfold3-MLX structure prediction started..."
 echo "🧬 Sequence: ${SEQUENCE}"
 echo "📁 Output directory: ${OUTPUT_DIR}"
 echo "⏰ Timestamp: ${TIMESTAMP}"
@@ -138,7 +138,7 @@ echo "   View template info: cat template_results_${TIMESTAMP}.json"
 
 if [ $PREDICTION_EXIT_CODE -eq 0 ]; then
     echo ""
-    echo "🎉 SUCCESS! Revolutionary MSA + Templates pipeline completed!"
+    echo "🎉 SUCCESS! Pipeline completed!"
 else
     echo ""
     echo "⚠️ Prediction completed with warnings - check debug info above"
