@@ -59,11 +59,17 @@ Get started with OpenFold3-MLX on your Apple Silicon Mac in a few easy steps:
 
 ### Installation
 
-Simple pip-only installation - no conda, homebrew, or command line experience required:
-
-1. Clone the repository and install dependencies:
+1a. Installer script (recommended):
 ```bash
-git clone [repository-url]
+git clone https://github.com/latent-spacecraft/openfold-3-mlx.git
+cd openfold-3-mlx && chmod +x ./install.sh && ./install.sh
+```
+
+Or, pip installation:
+
+1b. Clone the repository and install dependencies:
+```bash
+git clone https://github.com/latent-spacecraft/openfold-3-mlx.git
 cd openfold-3-mlx
 pip install -e .
 ```
@@ -73,7 +79,7 @@ pip install -e .
 setup_openfold
 ```
 
-**Template Processing**: Includes a bundled kalign binary optimized for all Apple Silicon variants (M1/M2/M3/M4). No additional installation or configuration required.
+**Template Processing**: Includes a bundled kalign binary optimized for Apple Silicon (M1/M2/M3/M4).
 
 ### Running Predictions
 
