@@ -389,7 +389,7 @@ class ChunkSizeTuner:
         consistent = True
         for a1, a2 in zip(ac1, ac2, strict=True):
             assert type(a1) is type(a2)
-            if isinstance(a1, (list, tuple)):
+            if isinstance(a1, list | tuple):
                 consistent &= self._compare_arg_caches(a1, a2)
             elif isinstance(a1, dict):
                 a1_items = [v for _, v in sorted(a1.items(), key=lambda x: x[0])]
