@@ -5,6 +5,7 @@ __pycache__/
 build
 dist
 .DS_Store
+.trash/
 
 # files from script downloads
 openfold3/resources/
