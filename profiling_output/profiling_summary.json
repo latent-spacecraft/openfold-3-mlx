@@ -1,0 +1,19 @@
+{
+  "total_operations": 156,
+  "total_time_ms": 814.2691670036584,
+  "total_flops": 910032896,
+  "flops_per_second": 1117606969.3867106,
+  "operation_groups": {
+    "torch": {
+      "count": 49,
+      "total_time": 24.838960980559932,
+      "total_flops": 0
+    },
+    "mlx": {
+      "count": 107,
+      "total_time": 789.4302060230984,
+      "total_flops": 910032896
+    }
+  },
+  "compilation_candidates": 38
+}

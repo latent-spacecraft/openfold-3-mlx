@@ -1,0 +1,3496 @@
+[
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.848040999902878,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.977916999545414,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 211.17612500165706,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.09141600094153546,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.014500001270789653,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.8033750018512364,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.05816700286231935,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.009915998816723004,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.7655829977011308,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.05729199983761646,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.004583002009894699,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.6364590008161031,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.03462500171735883,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.0047909998102113605,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.5362910014810041,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.03154200021526776,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.004500001523410901,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.7332080022024456,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.23220799994305708,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.08850000085658394,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.1093749999417923,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.24312499954248779,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.006833000952610746,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.9567080014676321,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.14700000247103162,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.004042001819470897,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.8632499993836973,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.11983299918938428,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.006792000931454822,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.7728330019745044,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.12216699906275608,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.007083999662427232,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.9715409978525713,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.09724999836180359,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.004083998646819964,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.3174169980629813,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.0620419998303987,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.09979199967347085,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 34340864,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 2.6159580011153594,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.0427499983052257,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.01341600000159815,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 34340864,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 2.6452499987499323,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.5043749988544732,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.005249999958323315,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 34340864,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.7436250018363353,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.6791249979869463,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.0076669966802001,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 34340864,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 2.734707999479724,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.3569590007828083,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.007916998583823442,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 34340864,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.9757909976760857,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.35637499968288466,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.007541999366367236,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 34340864,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 2.696999999898253,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 2.911291998316301,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.11120799899799749,
+    "input_shapes": [
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        1024,
+        1024
+      ],
+      [
+        1,
+        8,
+        1024,
+        1024
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 137363456,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 8.340500000485918,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.9618340011220425,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.02016700091189705,
+    "input_shapes": [
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        1024,
+        1024
+      ],
+      [
+        1,
+        8,
+        1024,
+        1024
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 137363456,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 8.722583999769995,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.791833001334453,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.011000000085914508,
+    "input_shapes": [
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        8,
+        1024,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        1024,
+        1024
+      ],
+      [
+        1,
+        8,
+        1024,
+        1024
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 137363456,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 4.534042000159388,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.8581249969429336,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.22804200125392526,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.07954199827509001,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.005375000910134986,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.006082998879719526,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 480.8420000008482,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.859291998698609,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.0162090000230819,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.0070829992182552814,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.005583999154623598,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.004874997102888301,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 10.142374998395098,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 1.086167001631111,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.014790999557590112,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.006916998245287687,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.005208003130974248,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_lma_chunk_accumulate",
+    "duration_ms": 0.004625002475222573,
+    "input_shapes": [
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        512,
+        512
+      ],
+      [
+        1,
+        8,
+        512,
+        512
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        64
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        512,
+        1
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 9.305708001193125,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.04833299681195058,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.010415998985990882,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.6457919989770744,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.06470800144597888,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.007083999662427232,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.9422090006410144,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.03204199674655683,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.004665998858399689,
+    "input_shapes": [
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        8,
+        128,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        128,
+        128
+      ],
+      [
+        1,
+        8,
+        128,
+        128
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 2146304,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.5546669999603182,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.08637499922770076,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.006375001248670742,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.6968330017116386,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.22537499899044633,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.005459001840790734,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.6827079996583052,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.1257920011994429,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.006750000466126949,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.8804589997453149,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.584834000619594,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.09141700138570741,
+    "input_shapes": [
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        384,
+        384
+      ],
+      [
+        1,
+        8,
+        384,
+        384
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 19316736,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.7655420015216805,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.49429099817643873,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.02237499938928522,
+    "input_shapes": [
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        384,
+        384
+      ],
+      [
+        1,
+        8,
+        384,
+        384
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 19316736,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.8051670012937393,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.3329579994897358,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.007000002369750291,
+    "input_shapes": [
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        8,
+        384,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        384,
+        384
+      ],
+      [
+        1,
+        8,
+        384,
+        384
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 19316736,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.7695410024316516,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.0922090002859477,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.008416001946898177,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.9613749973359518,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.1653340004850179,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.007416001608362421,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 2.779625003313413,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.1032919972203672,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.005583999154623598,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.8824579999782145,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.11679099770844914,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.006041998858563602,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.0474160008016042,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.1183339991257526,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.0079160017776303,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.247082996997051,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.11970800187555142,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.0056249991757795215,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.9244159991794731,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.09629199848859571,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.005375000910134986,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 2.530666002712678,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.09137500092037953,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.00437500057159923,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.3357089992496185,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 2.3572499994770624,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.016915997548494488,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.9960829993360676,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.13466699965647422,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.010667001333786175,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.7718330016359687,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.1330419981968589,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.008916998922359198,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.7497499973396771,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.17108300016843714,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.013500000932253897,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.1253340016992297,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.253791000432102,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.019833001715596765,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.1563750013010576,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.14712499978486449,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.006084002961870283,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.026458998239832,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.09237499762093648,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.0054580013966187835,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 1.3621660000353586,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "torch_to_mlx_conversion",
+    "duration_ms": 0.09874999886960723,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": false
+  },
+  {
+    "operation_name": "mlx_evoformer_attention_with_bias",
+    "duration_ms": 0.009250001312466338,
+    "input_shapes": [
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        8,
+        256,
+        64
+      ],
+      [
+        1,
+        1,
+        1,
+        256,
+        256
+      ],
+      [
+        1,
+        8,
+        256,
+        256
+      ]
+    ],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": 8585216,
+    "compilation_candidate": true
+  },
+  {
+    "operation_name": "mlx_to_torch_conversion",
+    "duration_ms": 0.7440830013365485,
+    "input_shapes": [],
+    "output_shapes": [],
+    "memory_usage_mb": null,
+    "flops_estimate": null,
+    "compilation_candidate": true
+  }
+]
